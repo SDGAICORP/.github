@@ -1,5 +1,4 @@
-# .github
-SDG AI Corporation
+# SDGAICORP
 # 🚀 SDG AI - Synthetic Data Generator
 
 > **The world's first true pseudo-random data generator**  
