@@ -91,16 +91,16 @@ sdg generate basic.spf --rows 100
 ### See True Data Generation
 ```bash
 # Generate customer data algorithmically
-sdg generate customers.spf --rows 100
+datagen customers.spf
 
 # Create financial transactions with real relationships
-sdg generate transactions.spf --rows 100
+datagen transactions.spf
 
 # Build healthcare records with referential integrity
-sdg generate healthcare.spf --rows 100
+datagen healthcare.spf
 ```
 
-**Need unlimited rows?** [Upgrade for $47/year →](https://sdg.ai/upgrade)
+**Need i million rows per execution** [Upgrade for $147/year →](https://sdg.ai/upgrade)
 
 ---
 
@@ -157,31 +157,27 @@ sdg_approach = infinite_algorithmic_scenarios  # Cheap, fast, comprehensive
 
 ---
 
-## 📚 500+ Professional Templates
+## 📚 Coming Soon - 500+ Professional Templates
 
 The power of algorithmic generation across every domain:
 
 ### 🏥 Healthcare
 ```bash
-sdg generate templates/healthcare_patients.spf --rows 50000
+datagen templates/healthcare_patients.spf
 # True patient data generation, not recycled examples
 ```
 
 ### 💰 Financial Services  
 ```bash
-sdg generate templates/banking_transactions.spf --rows 1000000
+datagen templates/banking_transactions.spf
 # Algorithmic transaction patterns, realistic flows
 ```
 
 ### 🛒 E-commerce
 ```bash
-sdg generate templates/ecommerce_complete.spf --rows 500000
+datagen templates/ecommerce_complete.spf
 # Complete ecosystem: users, products, orders, reviews
 ```
-
-**[Browse all 500+ algorithmic templates →](https://templates.sdg.ai)**
-
----
 
 ## 🤖 LLM Integration
 
@@ -194,7 +190,7 @@ sdg llm-generate "SaaS subscription billing data with churn patterns"
 # True algorithmic generation, AI-designed schemas
 ```
 
-**Included:** Prompt templates for perfect SPF generation with leading LLMs.
+**Coming Soon** Prompt templates for perfect SPF generation with leading LLMs.
 
 ---
 
@@ -207,9 +203,9 @@ sdg llm-generate "SaaS subscription billing data with churn patterns"
 - ✅ Complete SPF ecosystem
 - 📊 **Limit:** 100 rows per execution
 
-### **Unlimited - $47/year**
+### **1 Million Rows - $149/year**
 - ✅ Everything in Free
-- ✅ **Unlimited rows** per execution
+- ✅ **Million rows** per execution
 - ✅ Generate millions of records
 - ✅ Production-ready scale
 
@@ -221,23 +217,22 @@ sdg llm-generate "SaaS subscription billing data with churn patterns"
 
 ### Linux/macOS
 ```bash
-curl -sSL https://get.sdg.ai | bash
+Downlaod and unzip
 ```
 
 ### Windows
-```powershell
-iwr -useb https://get.sdg.ai/windows | iex
+```console
+Downlaod and unzip
 ```
 
 ### Verify Installation
 ```bash
-sdg --version
-sdg templates list
+datagen sample.spf
 ```
 
 ---
 
-## 📖 Documentation
+## 📖 Documentation (coming soon)
 
 - **[Quick Start Guide](https://docs.sdg.ai/quickstart)** - Get running in 5 minutes
 - **[SPF File Format](https://docs.sdg.ai/spf-format)** - Understanding the specification format  
@@ -272,7 +267,7 @@ This isn't just another data generation tool. It's the destruction of the entire
 
 ---
 
-## 🤝 Community
+## 🤝 Community (Coming Soon)
 
 - **[GitHub Discussions](https://github.com/sdg-ai/sdg/discussions)** - Ask questions, share templates
 - **[Discord Server](https://discord.gg/sdg-ai)** - Real-time community support  
